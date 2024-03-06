@@ -23,7 +23,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   box-sizing: border-box;
-  transform-origin: top center
+  transform-origin: center
 }
 
 
@@ -50,10 +50,15 @@ video {
     padding: 50px;
     border-radius: 50px;
     box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2), 0 0 20px rgba(88, 2, 2, 0.548);
-    color: #fff;
-    position: center;
-    margin: 60px;
-    max-width: 400px;
+    bottom: 0;
+    height: 370px;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 220px;
     background: linear-gradient(to bottom, #d97584c2 0%, #ffffff 100%);
 }
 
