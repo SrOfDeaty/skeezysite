@@ -51,7 +51,7 @@ video {
     border-radius: 50px;
     box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2), 0 0 20px rgba(88, 2, 2, 0.548);
     color: #fff;
-    position: relative;
+    position: center;
     margin: 60px;
     max-width: 400px;
     background: linear-gradient(to bottom, #d97584c2 0%, #ffffff 100%);
