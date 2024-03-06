@@ -445,7 +445,28 @@ body {
     
     .hover {
       text-decoration:none;
-      color:rgb(0, 0, 0)!important;
+      letter-spacing: 5px;
+    font-size: 17px;
+    color: #f7f7f7;
+    cursor: default;
+    text-transform: uppercase;
+  background-image: linear-gradient(
+    -215deg,
+    #dc7d64 10%,
+    #f1486f 29%,
+    #a95041 77%,
+    #803841 98%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display:block;
       transition:.4s!important;
     }
     
